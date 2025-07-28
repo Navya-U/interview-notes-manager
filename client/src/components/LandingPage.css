@@ -1,0 +1,120 @@
+.home-features1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thq-section-padding {
+  width: 100%;
+  display: flex;
+  padding: 80px;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.features1-container1 {
+  width: 100%;
+  display: grid;
+  grid-gap: 80px;
+  position: relative;
+  grid-template-columns: 1fr 1fr;
+}
+
+.thq-section-max-width {
+  width: 100%;
+  max-width: 1400px;
+}
+.features1-image-container {
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+.features1-image {
+  animation-name: fadeIn;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+.thq-img-ratio-16-9 {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 16 / 9;
+  border-radius: 12px;
+}
+.features1-tabs-menu {
+  gap: 32px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.features1-tab-horizontal {
+  gap: 32px;
+  cursor: pointer;
+  display: flex;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.features1-divider-container {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+}
+.features1-container2 {
+  width: 2px;
+  align-self: stretch;
+  background-color: #3e4650;
+}
+.features1-content {
+  gap: 16px;
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.thq-heading-2 {
+  font-size: 35px;
+  font-family: Laila;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.thq-body-small {
+  font-size: 19px;
+  font-family: Nunito;
+  line-height: 1.5;
+}
+
+.logo-style {
+  height: 3rem;
+  border-radius: 50px;
+  margin-left: 15px;
+}
+
+.horizontal-line {
+  margin-top: -15px;
+}
+
+.bg-linen {
+  background-color: linen;
+}
+.bg-cornsilk {
+  background-color: cornsilk;
+}
+.bg-gray {
+  background-color: gray;
+}

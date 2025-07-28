@@ -1,0 +1,16 @@
+# Node modules
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Env files
+.env
+server/.env
+
+# Build files
+client/build/
+dist/
+
+# Logs
+npm-debug.log 
+.DS_Store

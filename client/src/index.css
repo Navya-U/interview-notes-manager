@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Nunito', sans-serif !important;
+}
+
+body,
+html {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.15;
+  color: #3e4650 !important;
+  background-color: #fdfaf7 !important;
+  scrollbar-color: #454545 transparent;
+  font-size: 16px;
+}
+
+.card {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.15;
+}
+.thq-heading-2 {
+  font-size: 35px;
+  font-family: Laila;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.thq-body-small {
+  font-size: 19px;
+  font-family: Nunito;
+  line-height: 1.5;
+}
+.note-card {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.note-card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.page-item.active {
+  background-color: cadetblue !important;
+  border-color: cadetblue !important;
+}
+
+.margin-top--6 {
+  margin-top: -6%;
+}
+
+.login-img-style {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.logo-alter-img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.height-chart {
+  height: 300px;
+}
+
+.large-font {
+  font-size: x-large;
+}
+
+.bg-pinkshade {
+  background-color: #f9b4b1;
+}
