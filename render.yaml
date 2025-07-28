@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: interview-notes-api
+    env: node
+    plan: free
+    buildCommand: cd server && npm install
+    startCommand: cd server && npm start
+    envVars:
+      - key: MONGO_URI
+        value: mongodb+srv://udharanavya:naDD6cpQgyymG7JY@interview-notes-db.iq0krpg.mongodb.net/?retryWrites=true&w=majority&appName=interview-notes-db
+      - key: JWT_SECRET
+        value: supersecretkey123
